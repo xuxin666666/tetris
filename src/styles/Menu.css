@@ -1,0 +1,98 @@
+#p1 {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #6fb6fd;
+    text-shadow: aqua 2px 0 0;
+    margin: 5px;
+}
+#div21{
+    position: absolute;
+    top: 60px;
+    height: 120px;
+    width: 120px;
+    flex: 1;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+#div21 .i1,#div21 .j1,#div21 .l1,#div21 .o1,#div21 .s1,#div21 .t1,#div21 .z1{
+    position: absolute;
+    min-height: 60px;
+    min-width: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#p2{
+    width: 150px;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #6fb6fd;
+    text-shadow: aqua 2px 0 0;
+    margin: 5px;
+    position: absolute;
+    top: 200px;
+}
+#p3{
+    width: 150px;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 250px;
+    margin: 5px;
+    border: 1px solid red;
+}
+#image1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s ease;
+}
+#image1:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#p4{
+    width: 150px;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #6fb6fd;
+    text-shadow: aqua 2px 0 0;
+    margin: 5px;
+    position: absolute;
+    top: 430px;
+}
+#table1{
+    position: absolute;
+    top: 470px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+.t1{
+    font-weight: 600;
+}
+.t2{
+    text-indent: 30px;
+}
